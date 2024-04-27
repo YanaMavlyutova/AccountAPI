@@ -8,7 +8,7 @@
 #ifndef ACCOUNT_H_
 #define ACCOUNT_H_
 
-struct Account; // только объявление структуры без ее определения в API модуля
+typedef struct Account* UserAccount; // только объявление структуры без ее определения в API модуля
 
 struct Account* createAccount(char* username, char* pass);
 void printName(struct Account* acc);

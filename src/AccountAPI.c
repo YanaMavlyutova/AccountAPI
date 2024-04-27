@@ -13,7 +13,7 @@
 
 int main(void)
 {
-    struct Account* acc = createAccount("tom smith", "qwerty"); // создаем состояние
+    UserAccount acc = createAccount("tom smith", "qwerty"); // создаем состояние
 
     printName(acc);     // операции с состоянием
 
